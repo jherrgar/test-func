@@ -1,0 +1,46 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-storage-file-datalake
+azure-keyvault
+azure-identity
+pandas==1.4.4
+numpy==1.18.5
+grpcio-tools==1.32.0
+grpcio==1.32.0
+cffi==1.15.1
+pytest-runner==5.3.2
+git+https://github.com/sintel-dev/SigPro.git
+#git+https://github.corp.iberdrola.com/Iberdrola/ren-gts-cms_ml.git
+matplotlib==3.2.0
+boto3==1.14.44
+botocore==1.17.44
+xgboost==0.90
+tensorflow==2.3.4
+statsmodels==0.12.2
+scikit-learn==1.1.2
+scikit-image==0.19.3
+python-louvain==0.13
+opencv-python==4.6.0.66
+xlsxwriter==1.3.6
+nltk==3.7
+#lightfm==1.16
+langdetect==1.0.9
+Keras==2.4.3
+iso639==0.1.4
+featuretools==0.22.0
+tqdm==4.49.0
+fsspec==0.8.7
+distributed==2.30.1
+dask==2.30.0
+cloudpickle==1.6.0
+tabulate==0.8.10
+pymongo==3.12.3
+baytune==0.4.0
+protobuf==3.19.5
+tifffile==2021.11.2
+glob2==0.7
+pyarrow==9.0.0
+fastparquet==0.8.3
