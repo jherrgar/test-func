@@ -52,7 +52,6 @@ jobs:
       run: |
         pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
         git config --global http.sslbackend gnutls
-        git config --global http.proxy http://proxy.github.corp.iberdrola.com:8080
         python -m pip install --upgrade pip
         pip install -r requirements.txt --target=".python_packages/lib/site-packages"
         popd
